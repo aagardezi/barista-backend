@@ -1,2 +1,11 @@
 # Run in the Go 1.19 App Engine environment
 runtime: go119
+
+env_variables:
+  DB_TYPE: CLOUD_SQL_MYSQL
+  DB_USER: root
+  DB_PASS: Pa55word
+  DB_INSTANCE: cymbalcoffee
+  DB_REGION: europe-west2
+  DB_NAME: cymbal
+  
